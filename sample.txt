@@ -1,0 +1,4 @@
+
+if (file == null || file.isEmpty()) {
+    throw new IllegalArgumentException("File must not be null or empty");
+}
