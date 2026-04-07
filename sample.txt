@@ -4,3 +4,11 @@ print(1 + 1)
 # AI change
 5
 # AI change
+def dynamic_add(*args):
+    """Return the sum of all provided numeric arguments."""
+    return sum(args)
+
+# Example usage:
+result = dynamic_add(5, 10, 15)
+print(f"Dynamic sum: {result}")
+# AI change
